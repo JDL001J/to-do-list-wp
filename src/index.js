@@ -1,1 +1,4 @@
-console.log("it works")
+import createItem from './item';
+
+
+createItem()
