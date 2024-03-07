@@ -1,4 +1,6 @@
-import createItem from './item';
+import {createItem} from './item.js';
+import {onLoad} from './onLoad.js';
 
 
-createItem()
+
+onLoad()
