@@ -32,7 +32,7 @@ display: flex;
     grid-template-columns: 1fr 1fr;
 }
 
-.item{
+.item-div{
     height: 200px;
     width: 200px;
     background-color: aquamarine;
@@ -42,4 +42,10 @@ display: flex;
     height: 40px;
     width: 40px;
     background-color: red;
+}
+
+.dialog-box{
+    height: 400px;
+    width: 400px;
+    background-color: black;
 }

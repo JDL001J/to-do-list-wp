@@ -1,9 +1,8 @@
-import { createItem } from "./item";
+import { createItem } from "./create_item";
 
 export const onLoad = ()=> {
-   const item = createItem()
+   const item = createItem('default title', 'anytime', 'low')
  
-    
-    const container = document.querySelector("#container");
-    container.appendChild(item)
+    return item
+  
 }
