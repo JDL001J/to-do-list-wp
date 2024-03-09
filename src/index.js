@@ -4,4 +4,6 @@ import {dialogBox} from './dialog_box';
 
 
 onLoad();
+
 dialogBox()
+

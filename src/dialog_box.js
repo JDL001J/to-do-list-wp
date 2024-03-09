@@ -6,18 +6,19 @@ export const dialogBox = () => {
     
     const box = document.createElement('dialog');
     box.setAttribute('id', 'dialog-box');
-    const form = document.createElement('form');
-    const inputTitle = document.createElement("input");
+    box.setAttribute("aria-modal", 'false')
+    // const form = document.createElement('form');
+    // const inputTitle = document.createElement("input");
 
-    const submit = document.createElement("button");
-    submit.setAttribute('type', 'submit');
-    submit.textContent = "Submit"
-    form.appendChild(submit)
+    // const submit = document.createElement("button");
+    // submit.setAttribute('type', 'submit');
+    // submit.textContent = "Submit"
+    // form.appendChild(submit)
+box.close()
 
 
-
-form.appendChild(inputTitle);
-box.appendChild(form);
+  // form.appendChild(inputTitle);
+  // box.appendChild(form);
 
 
    const body = document.querySelector("#body");
@@ -25,13 +26,13 @@ box.appendChild(form);
 
    body.appendChild(box)
 
-   document.querySelector("form").addEventListener("submit", (e) => {
-    e.preventDefault();
-    createItem()
-  });
+  //  document.querySelector("form").addEventListener("submit", (e) => {
+  //   e.preventDefault();
+  //   createItem()
+  // });
 
    
-box.show()
+
 
 
 }
