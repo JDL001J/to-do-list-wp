@@ -1,10 +1,4 @@
 
-import {onLoad} from './onLoad.js';
-import {dialogBox} from './dialog_box';
+import { createDialog } from "./dialog";
 
-
-onLoad();
-
-dialogBox()
-
-s
+createDialog()
